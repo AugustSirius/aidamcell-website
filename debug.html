@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Test</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .success { color: green; }
+        .error { color: red; }
+        .info { color: blue; }
+    </style>
+</head>
+<body>
+    <h1>Module Loading Test</h1>
+    <div id="results"></div>
+    
+    <script type="module">
+        const results = document.getElementById('results');
+        let html = '<h2>Testing imports:</h2>';
+        
+        try {
+            // Test each import
+            const tests = [
+                { path: './js/data/cellular-components.js', name: 'cellularComponents' },
+                { path: './js/data/sequencing-methods.js', name: 'sequencingMethods' },
+                { path: './js/data/imaging-spatial.js', name: 'imagingSpatial' },
+                { path: './js/data/computational-tools.js', name: 'computationalTools' },
+                { path: './js/data/knowledge-base.js', name: 'KnowledgeBase' },
+                { path: './js/components/navigation.js', name: 'Navigation' },
+                { path: './js/components/search.js', name: 'Search' },
+                { path: './js/components/content-viewer.js', name: 'ContentViewer' }
+            ];
+            
+            for (const test of tests) {
+                try {
+                    const module = await import(test.path);
+                    html += `<div class="success">✓ ${test.path} loaded</div>`;
+                } catch (e) {
+                    html += `<div class="error">✗ ${test.path}: ${e.message}</div>`;
+                }
+            }
+            
+            // Try to initialize the app
+            html += '<h2>Testing App:</h2>';
+            const { SingleCellApp } = await import('./js/app.js');
+            const app = new SingleCellApp();
+            html += '<div class="success">✓ App initialized successfully!</div>';
+            
+        } catch (error) {
+            html += `<div class="error">✗ App initialization failed: ${error.message}</div>`;
+        }
+        
+        results.innerHTML = html;
+    </script>
+</body>
+</html>
