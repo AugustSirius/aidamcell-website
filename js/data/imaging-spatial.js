@@ -546,7 +546,7 @@ export const imagingSpatial = {
                         'Community antibody database',
                         'Cost-effective'
                     ],
-                    resources: [
+                    databases: [  // Changed from 'resources' to 'databases'
                         { name: 'IBEX Knowledge Base', url: 'https://github.com/IBEXImagingCommunity', description: 'Protocols and antibody database' }
                     ]
                 },

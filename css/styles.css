@@ -283,23 +283,6 @@ body {
 }
 
 /* ========== Utilities ========== */
-.loading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem;
-    color: var(--text-light);
-}
-
-.loading i {
-    font-size: 2rem;
-    animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-    to { transform: rotate(360deg); }
-}
-
 .empty-state {
     text-align: center;
     padding: 3rem;
@@ -431,31 +414,6 @@ body {
     gap: 0.5rem;
 }
 
-/* Specifications Grid */
-.spec-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.spec-item {
-    padding: 0.75rem;
-    background: var(--bg-tertiary);
-    border-radius: var(--radius-sm);
-}
-
-.spec-label {
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    margin-bottom: 0.25rem;
-}
-
-.spec-value {
-    font-weight: 600;
-    color: var(--text-primary);
-}
-
 /* Workflow Steps */
 .workflow-steps {
     margin-top: 1rem;
@@ -492,16 +450,6 @@ body {
 .list-section ul {
     list-style-position: inside;
     color: var(--text-secondary);
-}
-
-.list-section.success {
-    border-left: 3px solid var(--success-color);
-    padding-left: 1rem;
-}
-
-.list-section.warning {
-    border-left: 3px solid var(--warning-color);
-    padding-left: 1rem;
 }
 
 /* Database List */
@@ -568,176 +516,6 @@ body {
     text-decoration: underline;
 }
 
-/* ========== 新增样式部分 ========== */
-
-/* Technologies Section */
-.technologies {
-    margin: 2rem 0;
-}
-
-.tech-categories {
-    display: grid;
-    gap: 1.5rem;
-}
-
-.tech-category {
-    background: var(--bg-tertiary);
-    padding: 1rem;
-    border-radius: var(--radius-md);
-}
-
-.tech-category h4 {
-    color: var(--primary-color);
-    margin-bottom: 0.75rem;
-    font-size: 1.125rem;
-}
-
-.tech-details {
-    background: var(--bg-primary);
-    padding: 1rem;
-    border-radius: var(--radius-sm);
-}
-
-.tech-details dt {
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-top: 0.5rem;
-}
-
-.tech-details dd {
-    margin-left: 1rem;
-    color: var(--text-secondary);
-    margin-bottom: 0.5rem;
-}
-
-/* Platforms Section */
-.platforms {
-    margin: 2rem 0;
-}
-
-.platform-categories {
-    display: grid;
-    gap: 1.5rem;
-}
-
-.platform-category {
-    background: var(--bg-tertiary);
-    padding: 1rem;
-    border-radius: var(--radius-md);
-}
-
-.platform-category h4 {
-    color: var(--secondary-color);
-    margin-bottom: 0.75rem;
-}
-
-.platform-item {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid var(--border-color);
-}
-
-.platform-item:last-child {
-    border-bottom: none;
-}
-
-.platform-item strong {
-    color: var(--text-primary);
-}
-
-/* Key Metrics */
-.key-metrics {
-    margin: 2rem 0;
-}
-
-.metrics-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.metric-item {
-    background: linear-gradient(135deg, rgba(124, 58, 237, 0.05), rgba(124, 58, 237, 0.1));
-    padding: 1rem;
-    border-radius: var(--radius-md);
-    border-left: 3px solid var(--primary-color);
-}
-
-.metric-label {
-    font-size: 0.875rem;
-    color: var(--text-secondary);
-    margin-bottom: 0.25rem;
-}
-
-.metric-value {
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: var(--text-primary);
-}
-
-/* Methods Section */
-.methods {
-    margin: 2rem 0;
-}
-
-.method-section {
-    background: var(--bg-tertiary);
-    padding: 1.5rem;
-    border-radius: var(--radius-md);
-    margin-bottom: 1rem;
-}
-
-.method-section h4 {
-    color: var(--primary-dark);
-    margin-bottom: 0.75rem;
-}
-
-.method-details {
-    margin-top: 0.5rem;
-}
-
-.detail-row {
-    display: flex;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-    background: var(--bg-primary);
-    border-radius: var(--radius-sm);
-}
-
-.detail-key {
-    font-weight: 500;
-    color: var(--text-primary);
-    margin-right: 0.5rem;
-    min-width: 150px;
-}
-
-.detail-value {
-    color: var(--text-secondary);
-    flex: 1;
-}
-
-/* Functions Section */
-.functions {
-    margin: 2rem 0;
-}
-
-.function-grid {
-    display: grid;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.function-item {
-    padding: 0.75rem;
-    background: var(--bg-tertiary);
-    border-radius: var(--radius-sm);
-    border-left: 2px solid var(--primary-light);
-}
-
-.function-item strong {
-    color: var(--text-primary);
-}
-
 /* Pathways Section */
 .pathways {
     margin: 2rem 0;
@@ -787,41 +565,12 @@ body {
     border-radius: var(--radius-sm);
 }
 
-.list-section.secondary {
-    border-left: 3px solid var(--secondary-color);
-    padding-left: 1rem;
-    background: rgba(6, 182, 212, 0.05);
-    padding: 1rem;
-    border-radius: var(--radius-sm);
-}
-
-.list-section.info {
-    border-left: 3px solid var(--secondary-color);
-    padding-left: 1rem;
-    background: rgba(6, 182, 212, 0.05);
-    padding: 1rem;
-    border-radius: var(--radius-sm);
-}
-
 .list-section.default {
     padding-left: 1rem;
 }
 
 /* Improved responsive design for complex structures */
 @media (max-width: 768px) {
-    .metrics-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .detail-row {
-        flex-direction: column;
-    }
-    
-    .detail-key {
-        min-width: auto;
-        margin-bottom: 0.25rem;
-    }
-    
     .pathway-row {
         flex-direction: column;
     }
@@ -848,17 +597,10 @@ body {
 }
 
 /* Smooth transitions */
-.tech-category,
-.platform-category,
-.method-section,
-.pathway-section,
-.metric-item {
+.pathway-section {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.tech-category:hover,
-.platform-category:hover,
-.method-section:hover,
 .pathway-section:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
@@ -889,17 +631,95 @@ body {
     color: var(--primary-color);
 }
 
-.list-section.success ul li:before {
-    color: var(--success-color);
-    content: "✓";
+/* ========== Generic Section Styling ========== */
+.generic-section, .nested-section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
 }
 
-.list-section.warning ul li:before {
-    color: var(--warning-color);
-    content: "⚠";
+.generic-section h3, .nested-section h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+    font-size: 1.25rem;
 }
 
-.list-section.info ul li:before {
-    color: var(--secondary-color);
-    content: "ℹ";
+.generic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.generic-item {
+    padding: 0.75rem;
+    background: white;
+    border-radius: 6px;
+    border-left: 3px solid var(--primary-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.generic-label {
+    font-weight: 600;
+    color: #34495e;
+    margin-bottom: 0.25rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.generic-value {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Nested sections (for technologies, platforms, etc.) */
+.nested-categories {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.nested-category {
+    background: white;
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    border: 1px solid #e5e7eb;
+}
+
+.nested-category h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+    font-size: 1.125rem;
+}
+
+.nested-details {
+    background: var(--bg-primary);
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+}
+
+.nested-details dt {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-top: 0.5rem;
+}
+
+.nested-details dd {
+    margin-left: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+/* Info items for standalone values */
+.info-item {
+    padding: 0.5rem 1rem;
+    background: var(--bg-tertiary);
+    margin: 0.5rem 0;
+    border-radius: var(--radius-sm);
+}
+
+.info-item strong {
+    color: var(--text-primary);
+    margin-right: 0.5rem;
 }

@@ -699,44 +699,38 @@ export const multiOmicsTechnologies = {
                     id: 'paired-omics',
                     name: 'Paired Multi-Omics Technologies',
                     description: 'Simultaneous measurement of multiple molecular modalities from the same single cells',
-                    technologies: [
-                        {
-                            name: 'CITE-seq',
+                    technologies: {
+                        'CITE-seq': {
                             modalities: 'RNA + surface proteins',
                             scale: 'Thousands of cells, 200+ proteins',
                             vendor: 'New York Genome Center method'
                         },
-                        {
-                            name: '10x Multiome',
+                        '10x Multiome': {
                             modalities: 'RNA + chromatin accessibility',
                             scale: 'Thousands of cells simultaneously',
                             vendor: '10x Genomics'
                         },
-                        {
-                            name: 'SHARE-seq',
+                        'SHARE-seq': {
                             modalities: 'RNA + chromatin accessibility',
                             scale: 'Hundreds of thousands of cells',
                             vendor: 'Academic method'
                         },
-                        {
-                            name: 'DOGMA-seq',
+                        'DOGMA-seq': {
                             modalities: 'RNA + ATAC + proteins',
                             scale: 'Triple modality',
                             vendor: 'NYGC/Memorial Sloan Kettering'
                         },
-                        {
-                            name: 'TEA-seq',
+                        'TEA-seq': {
                             modalities: 'RNA + ATAC + proteins + TCR/BCR',
                             scale: 'Quad modality for immune cells',
                             vendor: 'Academic development'
                         },
-                        {
-                            name: 'NEAT-seq',
+                        'NEAT-seq': {
                             modalities: 'RNA + proteins + accessible chromatin',
                             scale: 'Nuclear and cytoplasmic',
                             vendor: 'Recent development'
                         }
-                    ],
+                    },
                     advantages: [
                         'True single-cell correlations',
                         'Reduced batch effects',
@@ -757,6 +751,68 @@ export const multiOmicsTechnologies = {
                         { name: 'HuBMAP', url: 'https://hubmapconsortium.org/', description: 'Human BioMolecular Atlas Program' }
                     ]
                 },
+                // {
+                //     id: 'paired-omics',
+                //     name: 'Paired Multi-Omics Technologies',
+                //     description: 'Simultaneous measurement of multiple molecular modalities from the same single cells',
+                //     technologies: [
+                //         {
+                //             name: 'CITE-seq',
+                //             modalities: 'RNA + surface proteins',
+                //             scale: 'Thousands of cells, 200+ proteins',
+                //             vendor: 'New York Genome Center method'
+                //         },
+                //         {
+                //             name: '10x Multiome',
+                //             modalities: 'RNA + chromatin accessibility',
+                //             scale: 'Thousands of cells simultaneously',
+                //             vendor: '10x Genomics'
+                //         },
+                //         {
+                //             name: 'SHARE-seq',
+                //             modalities: 'RNA + chromatin accessibility',
+                //             scale: 'Hundreds of thousands of cells',
+                //             vendor: 'Academic method'
+                //         },
+                //         {
+                //             name: 'DOGMA-seq',
+                //             modalities: 'RNA + ATAC + proteins',
+                //             scale: 'Triple modality',
+                //             vendor: 'NYGC/Memorial Sloan Kettering'
+                //         },
+                //         {
+                //             name: 'TEA-seq',
+                //             modalities: 'RNA + ATAC + proteins + TCR/BCR',
+                //             scale: 'Quad modality for immune cells',
+                //             vendor: 'Academic development'
+                //         },
+                //         {
+                //             name: 'NEAT-seq',
+                //             modalities: 'RNA + proteins + accessible chromatin',
+                //             scale: 'Nuclear and cytoplasmic',
+                //             vendor: 'Recent development'
+                //         }
+                //     ],
+                //     advantages: [
+                //         'True single-cell correlations',
+                //         'Reduced batch effects',
+                //         'Direct regulatory relationships',
+                //         'Comprehensive cell state definition',
+                //         'Lineage and state coupling'
+                //     ],
+                //     computationalMethods: [
+                //         'WNN (Weighted Nearest Neighbor) - Seurat',
+                //         'MOFA+ (Multi-Omics Factor Analysis)',
+                //         'totalVI (total Variational Inference)',
+                //         'Cobolt (Bayesian integration)',
+                //         'MultiVI (deep generative modeling)',
+                //         'GLUE (Graph-linked unified embedding)'
+                //     ],
+                //     databases: [
+                //         { name: 'Single Cell Portal', url: 'https://singlecell.broadinstitute.org/', description: 'Multi-modal single-cell data' },
+                //         { name: 'HuBMAP', url: 'https://hubmapconsortium.org/', description: 'Human BioMolecular Atlas Program' }
+                //     ]
+                // },
                 {
                     id: 'temporal-profiling',
                     name: 'Temporal Multi-Omics',

@@ -44,7 +44,7 @@ export const cellularComponents = {
                         { name: 'TCDB', url: 'https://www.tcdb.org/', description: 'Transporter Classification Database' },
                         { name: 'OPM', url: 'https://opm.phar.umich.edu/', description: 'Orientations of Proteins in Membranes' },
                         { name: 'MemProtMD', url: 'http://memprotmd.bioch.ox.ac.uk/', description: 'Membrane protein structures' },
-                        { name: 'PDBTM', url: 'http://pdbtm.enzim.hu/', description: 'Protein Data Bank of Transmembrane Proteins' }
+                        { name: 'PDBTM', url: 'https://pdbtm.unitmp.org/', description: 'Protein Data Bank of Transmembrane Proteins' }
                     ],
                     keyFacts: [
                         'Thickness: 7-10 nm',
@@ -86,10 +86,10 @@ export const cellularComponents = {
                         'Electron microscopy',
                         'DamID for lamina interactions'
                     ],
-                    databases: [
-                        { name: 'NPC Database', url: 'http://www.npcdb.org/', description: 'Nuclear Pore Complex components' },
-                        { name: 'NuPoP', url: 'https://www.predictNLS.org/', description: 'Nuclear localization signals' }
-                    ],
+                    // databases: [
+                    //     { name: 'NPC Database', url: 'http://www.npcdb.org/', description: 'Nuclear Pore Complex components' },
+                    //     { name: 'NuPoP', url: 'https://www.predictNLS.org/', description: 'Nuclear localization signals' }
+                    // ],
                     diseases: [
                         'Laminopathies (LMNA mutations)',
                         'Hutchinson-Gilford progeria',
@@ -781,9 +781,9 @@ export const cellularComponents = {
                         'Post-translational modifications',
                         'Cell cycle regulation'
                     ],
-                    databases: [
-                        { name: 'NPC Database', url: 'http://www.npcdb.org/', description: 'Nuclear pore complex proteins' }
-                    ]
+                    // databases: [
+                    //     { name: 'NPC Database', url: 'http://www.npcdb.org/', description: 'Nuclear pore complex proteins' }
+                    // ]
                 }
             ]
         }
