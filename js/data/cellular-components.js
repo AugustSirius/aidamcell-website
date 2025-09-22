@@ -814,16 +814,16 @@ export const cellularComponents = {
             { title: 'A subcellular map of the human proteome', year: 2017, journal: 'Science', doi: '10.1126/science.aal3321' },
             { title: 'Phosphoinositides as membrane organizers', year: 2022, journal: 'Nature Reviews Molecular Cell Biology', doi: '10.1038/s41580-022-00490-x' },
             { title: 'Structure, function and assembly of nuclear pore complexes', year: 2025, journal: 'Nature Reviews Molecular Cell Biology', doi: '10.1038/s41580-025-00815-4' },
-            { title: 'The mammalian unfolded protein response', year: 2022, journal: 'Nature Reviews Molecular Cell Biology', doi: '10.1038/s41580-022-00491-w' },
+            // { title: 'The mammalian unfolded protein response', year: 2022, journal: 'Nature Reviews Molecular Cell Biology', doi: '10.1038/s41580-022-00491-w' },
             { title: 'Lysosomes as dynamic regulators of cell and organismal homeostasis', year: 2020, journal: 'Nature Reviews Molecular Cell Biology', doi: '10.1038/s41580-019-0185-4' },
             { title: 'The physiological functions of human peroxisomes', year: 2023, journal: 'Physiological Reviews', doi: '10.1152/physrev.00051.2021' },
-            { title: 'Evolving Concepts of Mitochondrial Dynamics', year: 2019, journal: 'Annual Review of Physiology', doi: '10.1146/annurev-physiol-020518-114358' },
+            // { title: 'Evolving Concepts of Mitochondrial Dynamics', year: 2019, journal: 'Annual Review of Physiology', doi: '10.1146/annurev-physiol-020518-114358' },
             { title: 'Structure and Function of the 26S Proteasome', year: 2019, journal: 'Annual Review of Biochemistry', doi: '10.1146/annurev-biochem-062917-011931' },
             { title: 'The actin cytoskeleton and actin-based motility', year: 2018, journal: 'Cold Spring Harbor Perspectives in Biology', doi: '10.1101/cshperspect.a018267' },
             { title: 'The Mediator complex and transcription by RNA polymerase II', year: 2022, journal: 'Nature Reviews Molecular Cell Biology', doi: '10.1038/s41580-022-00498-3' },
-            { title: 'Molecular Mechanisms of pre-mRNA Splicing through Structural Biology of the Spliceosome', year: 2019, journal: 'Cold Spring Harbor Perspectives in Biology', doi: '10.1101/cshperspect.a032409' },
-            { title: 'Liquid–liquid phase separation in biology', year: 2014, journal: 'Annual Review of Cell and Developmental Biology', doi: '10.1146/annurev-cellbio-100913-013325' },
-            { title: 'DNA double-strand break repair–pathway choice in somatic mammalian cells', year: 2019, journal: 'Nature Reviews Molecular Cell Biology', doi: '10.1038/s41580-019-0152-0' }
+            // { title: 'Molecular Mechanisms of pre-mRNA Splicing through Structural Biology of the Spliceosome', year: 2019, journal: 'Cold Spring Harbor Perspectives in Biology', doi: '10.1101/cshperspect.a032409' },
+            // { title: 'Liquid–liquid phase separation in biology', year: 2014, journal: 'Annual Review of Cell and Developmental Biology', doi: '10.1146/annurev-cellbio-100913-013325' },
+            // { title: 'DNA double-strand break repair–pathway choice in somatic mammalian cells', year: 2019, journal: 'Nature Reviews Molecular Cell Biology', doi: '10.1038/s41580-019-0152-0' }
         ]
     }
 };
