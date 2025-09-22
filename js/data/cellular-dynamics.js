@@ -1102,9 +1102,65 @@ export const cellularDynamics = {
             { name: 'COPASI', url: 'http://copasi.org/', purpose: 'Biochemical system simulation' },
             { name: 'Virtual Cell', url: 'https://vcell.org/', purpose: 'Cell modeling platform' }
         ],
+        // reviews: [
+        //     { title: 'Dynamics of cellular states', year: 2024, journal: 'Cell', doi: '10.1016/j.cell.2024.01.001' },
+        //     { title: 'Cell signaling dynamics', year: 2023, journal: 'Nature Reviews MCB', doi: '10.1038/s41580-023-00599-x' }
+        // ]
         reviews: [
-            { title: 'Dynamics of cellular states', year: 2024, journal: 'Cell', doi: '10.1016/j.cell.2024.01.001' },
-            { title: 'Cell signaling dynamics', year: 2023, journal: 'Nature Reviews MCB', doi: '10.1038/s41580-023-00599-x' }
+            {
+              title: "Calcium signalling: dynamics, homeostasis and remodelling",
+              year: 2003,
+              journal: "Nature Reviews Molecular Cell Biology",
+              doi: "10.1038/nrm1155"
+            },
+            {
+              title: "mTOR Signaling in Growth, Metabolism, and Disease",
+              year: 2017,
+              journal: "Cell",
+              doi: "10.1016/j.cell.2017.03.035"
+            },
+            {
+              title: "The integrated stress response: from mechanism to disease",
+              year: 2020,
+              journal: "Science",
+              doi: "10.1126/science.aba1739"
+            },
+            {
+              title: "The DNA-damage response in human biology and disease",
+              year: 2009,
+              journal: "Nature",
+              doi: "10.1038/nature08467"
+            },
+            {
+              title: "Molecular Mechanism of Cytokinesis",
+              year: 2019,
+              journal: "Annual Review of Biochemistry",
+              doi: "10.1146/annurev-biochem-062917-012530"
+            },
+            {
+              title: "The biology, function, and biomedical applications of exosomes",
+              year: 2020,
+              journal: "Science",
+              doi: "10.1126/science.aau6977"
+            },
+            {
+              title: "Notch signalling in context",
+              year: 2016,
+              journal: "Nature Reviews Molecular Cell Biology",
+              doi: "10.1038/nrm.2016.94"
+            },
+            {
+              title: "Neurotransmitter release: the last millisecond in the life of a synaptic vesicle",
+              year: 2013,
+              journal: "Neuron",
+              doi: "10.1016/j.neuron.2013.10.022"
+            },
+            {
+              title: "Ferroptosis: mechanisms, biology and role in disease",
+              year: 2021,
+              journal: "Nature Reviews Molecular Cell Biology",
+              doi: "10.1038/s41580-020-00324-8"
+            }
         ]
     }
 };

@@ -899,9 +899,71 @@ export const multiOmicsTechnologies = {
             { name: 'MOFA+', url: 'https://biofam.github.io/MOFA2/', purpose: 'Multi-omics factor analysis' },
             { name: 'mixOmics', url: 'http://mixomics.org/', purpose: 'Multivariate omics integration' }
         ],
+        // reviews: [
+        //     { title: 'Integrative single-cell analysis', year: 2024, journal: 'Nature Reviews Genetics', doi: '10.1038/s41576-024-00716-y' },
+        //     { title: 'Single-cell multi-omics', year: 2023, journal: 'Nature Methods', doi: '10.1038/s41592-023-01992-y' }
+        // ]
         reviews: [
-            { title: 'Integrative single-cell analysis', year: 2024, journal: 'Nature Reviews Genetics', doi: '10.1038/s41576-024-00716-y' },
-            { title: 'Single-cell multi-omics', year: 2023, journal: 'Nature Methods', doi: '10.1038/s41592-023-01992-y' }
+            {
+                title: "Best practices for single-cell analysis across modalities",
+                year: 2023,
+                journal: "Nature Reviews Genetics",
+                doi: "10.1038/s41576-023-00586-w"
+            },
+            {
+                title: "Advances in single-cell omics and multiomics for high-resolution molecular profiling",
+                year: 2024,
+                journal: "Experimental & Molecular Medicine",
+                doi: "10.1038/s12276-024-01186-2"
+            },
+            {
+                title: "Spatial Transcriptomics Brings New Challenges and Opportunities",
+                year: 2024,
+                journal: "Annual Review of Biomedical Data Science",
+                doi: "10.1146/annurev-biodatasci-040324-030052"
+            },
+            {
+                title: "Spatial and single-cell profiling of the metabolome",
+                year: 2023,
+                journal: "Nature Metabolism",
+                doi: "10.1038/s43587-023-00513-y"
+            },
+            {
+                title: "Single-cell proteomics enabled by next-generation sequencing or mass spectrometry",
+                year: 2023,
+                journal: "Nature Methods",
+                doi: "10.1038/s41592-023-01791-5"
+            },
+            {
+                title: "Systematic benchmarking of single-cell ATAC-sequencing protocols",
+                year: 2024,
+                journal: "Nature Biotechnology",
+                doi: "10.1038/s41587-023-01881-x"
+            },
+            {
+                title: "Long non-coding RNAs: definitions, functions, challenges and recommendations",
+                year: 2023,
+                journal: "Nature Reviews Molecular Cell Biology",
+                doi: "10.1038/s41580-022-00566-8"
+            },
+            {
+                title: "Benchmarking multi-omics integration algorithms across multiple omics types",
+                year: 2024,
+                journal: "Briefings in Bioinformatics",
+                doi: "10.1093/bib/bbae095"
+            },
+            {
+                title: "Integration of spatial and single-cell data across modalities with MaxFuse",
+                year: 2024,
+                journal: "Nature Biotechnology",
+                doi: "10.1038/s41587-023-01935-0"
+            },
+            {
+                title: "SpatialGlue deciphers spatial domains from spatial multi-omics",
+                year: 2024,
+                journal: "Nature Methods",
+                doi: "10.1038/s41592-024-02316-4"
+            }
         ]
     }
 };

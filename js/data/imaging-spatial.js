@@ -744,10 +744,31 @@ export const imagingSpatial = {
             { name: 'MCMICRO', url: 'https://mcmicro.org/', purpose: 'Multiple-choice microscopy pipeline' },
             { name: 'Starfish', url: 'https://spacetx-starfish.readthedocs.io/', purpose: 'Image-based transcriptomics' }
         ],
+        // reviews: [
+        //     { title: 'Museum of spatial transcriptomics', year: 2022, journal: 'Nature Methods', doi: '10.1038/s41592-022-01409-2' },
+        //     { title: 'Spatial omics technologies', year: 2024, journal: 'Nature Reviews Methods Primers', doi: '10.1038/s43586-023-00276-1' },
+        //     { title: 'The emerging landscape of spatial profiling', year: 2022, journal: 'Nature Reviews Genetics', doi: '10.1038/s41576-022-00515-3' }
+        // ]
         reviews: [
-            { title: 'Museum of spatial transcriptomics', year: 2022, journal: 'Nature Methods', doi: '10.1038/s41592-022-01409-2' },
-            { title: 'Spatial omics technologies', year: 2024, journal: 'Nature Reviews Methods Primers', doi: '10.1038/s43586-023-00276-1' },
-            { title: 'The emerging landscape of spatial profiling', year: 2022, journal: 'Nature Reviews Genetics', doi: '10.1038/s41576-022-00515-3' }
+            { title: "Museum of spatial transcriptomics", year: 2022, journal: "Nature Methods", doi: "10.1038/s41592-022-01409-2" }, // :contentReference[oaicite:3]{index=3}
+            { title: "The emerging landscape of spatial profiling technologies", year: 2022, journal: "Nature Reviews Genetics", doi: "10.1038/s41576-022-00515-3" }, // :contentReference[oaicite:4]{index=4}
+            { title: "Spatial multiplexing and omics", year: 2024, journal: "Nature Reviews Methods Primers", doi: "10.1038/s43586-024-00330-6" }, // :contentReference[oaicite:5]{index=5}
+          
+            // Cross-cutting / benchmarking (great for choosing platforms)
+            { title: "A systematic comparison of sequencing-based spatial transcriptomics", year: 2024, journal: "Nature Methods", doi: "10.1038/s41592-024-02325-3" }, // :contentReference[oaicite:6]{index=6}
+            { title: "Spatiotemporal omics for biology and medicine", year: 2024, journal: "Cell", doi: "10.1016/j.cell.2024.07.040" }, // :contentReference[oaicite:7]{index=7}
+          
+            // Multiplexed immunofluorescence
+            { title: "Spatial analysis by current multiplexed imaging techniques", year: 2024, journal: "British Journal of Cancer", doi: "10.1038/s41416-024-02869-0" }, // :contentReference[oaicite:8]{index=8}
+            { title: "Multiplex Immunofluorescence: A Powerful Tool in Cancer Immunotherapy", year: 2023, journal: "Frontiers in Immunology", doi: "10.3389/fimmu.2023.1119816" }, // :contentReference[oaicite:9]{index=9}
+          
+            // Mass spectrometry imaging
+            { title: "High-Specificity Imaging Mass Spectrometry", year: 2024, journal: "Annual Review of Analytical Chemistry", doi: "10.1146/annurev-anchem-083023-024546" }, // :contentReference[oaicite:10]{index=10}
+            { title: "Mass spectrometry imaging for spatially resolved multi-omics molecular mapping", year: 2024, journal: "npj Imaging", doi: "10.1038/s44303-024-00025-3" }, // :contentReference[oaicite:11]{index=11}
+          
+            // Advanced microscopy (to match your last category)
+            { title: "Multiphoton fluorescence microscopy for in vivo imaging", year: 2024, journal: "Cell", doi: "10.1016/j.cell.2024.07.036" }, // :contentReference[oaicite:12]{index=12}
+            { title: "Label-free biomedical optical imaging", year: 2023, journal: "Nature Photonics", doi: "10.1038/s41566-023-01299-6" } // :contentReference[oaicite:13]{index=13}
         ]
     }
 };
